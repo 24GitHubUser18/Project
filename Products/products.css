@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Product Showcase Styles */
+.product-showcase {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.product-showcase h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+/* Testimonials Styles */
+.testimonials {
+    padding: 50px 0;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Pricing Plans Styles */
+.pricing-plans {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.pricing-plans h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.plan {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+/* Call-to-Action Button Styles */
+.cta-btn {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #cc5500;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
